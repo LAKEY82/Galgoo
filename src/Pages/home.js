@@ -3,6 +3,7 @@ import AppsIcon from '@material-ui/icons/Apps';
 import {Avatar} from '@material-ui/core';
 import pic from "../Images/name.jpg"
 import '../Pages/home.css'
+import '../Pages/search.css'
 import search  from './search';
 import SearchIcon from '@material-ui/icons/Search';
 import MicIcon from '@material-ui/icons/Mic';
@@ -12,8 +13,8 @@ function home() {
     <div className='home_header'>
 
             <div className='home_headerLeft'>
-               <p>About</p>
-               <p>Store</p>
+               <p></p>
+               <p></p>
             </div>
 
             <div className='home_headerRight'>
@@ -26,7 +27,7 @@ function home() {
     </div>
     
     <div className='home_body'>
-         <img src={pic} />
+         <img className='image' src={pic} />
          
           <div className='home_inputcontainer'>
           <div>   
